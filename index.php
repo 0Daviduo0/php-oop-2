@@ -248,17 +248,26 @@ $ciboCan1 = new Cibo("Cibo in scatola", "al Manzo", "Cibo in scatola al flavor d
 $ciboCan2 = new Cibo("Cibo in scatola", "al Pollo", "Cibo in scatola al flavor di Pollo");
 $ciboCan3 = new Cibo("Cibo in scatola", "alle Carote", "Cibo in scatola al flavor di Carote");
 
-
-
-
-
-
-
 ?>
 
 <body>
 
-    
+    <h1>Prodotti per cani</h1>
+
+    <?php
+
+        $DogsProducts = new Dogs(
+            [$gioco1, $gioco2, $gioco3], 
+            [$cuccia1, $cuccia2, $cuccia3, $trasportino1, $trasportino2, $trasportino3],
+            [$maglione1, $maglione2, $maglione3, $maglione4,
+             $cappotto1, $cappotto2, $cappotto3, $cappotto4,
+             $maglietta1, $maglietta2, $maglietta3, $maglietta4,
+             $tutu1, $tutu2, $tutu3, $tutu4],
+            [$accessorio1, $accessorio2, $accessorio3],
+            [$ciboCrock1, $ciboCrock2, $ciboCrock3, $ciboCan1, $ciboCan2, $ciboCan3]
+            )
+
+    ?>
 
 </body>
 </html>
